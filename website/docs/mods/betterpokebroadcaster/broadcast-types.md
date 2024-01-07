@@ -13,7 +13,9 @@ description: You can use multiple specs in one broadcast
 <tr>
 <td>Capture</td>
 <td>Initiates a broadcast when a specified Spec if captured.</td>
-<td><pre><code>    one: #Example Using Shiny Spec
+<td>
+```
+one: #Example Using Shiny Spec
         type: capture
         spec: shiny
         nearest-player-radius: 30.0
@@ -23,12 +25,14 @@ description: You can use multiple specs in one broadcast
         - '&#x26;8-------'
         webhook: none
         nearest-player-only: false
-</code></pre></td>
+```
+</td>
 </tr>
 <tr>
 <td>Spawn</td>
 <td>Initiates a broadcast when a specified spec spawns</td>
-<td><pre><code>    one: #Example Using Shiny Spec
+<td>```
+one: #Example Using Shiny Spec
         type: spawn
         spec: shiny
         nearest-player-radius: 30.0
@@ -38,12 +42,13 @@ description: You can use multiple specs in one broadcast
         - '&#x26;8-------'
         webhook: none
         nearest-player-only: true #True means it will only broadcast to the nearest player
-</code></pre></td>
+```</td>
 </tr>
 <tr>
 <td>Defeat</td>
 <td>Initiates a broadcast when a specified spec is defeated</td>
-<td><pre><code>    one: #Example Using Shiny Spec
+<td>```
+one: #Example Using Shiny Spec
         type: defeat
         spec: shiny
         nearest-player-radius: 30.0
@@ -53,6 +58,6 @@ description: You can use multiple specs in one broadcast
         - '&#x26;8-------'
         webhook: none
         nearest-player-only: false
-</code></pre></td>
+```</td>
 </tr>
 </table>
