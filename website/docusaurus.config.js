@@ -66,9 +66,27 @@ const config = {
         items: [
           {
             type: 'docSidebar',
-            sidebarId: 'tutorialSidebar',
+            sidebarId: 'generalHelpSidebar',
             position: 'left',
-            label: 'Tutorial',
+            label: 'General Help',
+          },
+          {
+            type: 'docSidebar',
+            sidebarId: 'modsSidebar',
+            position: 'left',
+            label: 'Mods',
+          },
+          {
+            type: 'docSidebar',
+            sidebarId: 'premiumModsSidebar',
+            position: 'left',
+            label: 'Premium Mods',
+          },
+          {
+            type: 'docSidebar',
+            sidebarId: 'apiSidebar',
+            position: 'left',
+            label: 'API',
           },
           {to: '/blog', label: 'Blog', position: 'left'},
           {
