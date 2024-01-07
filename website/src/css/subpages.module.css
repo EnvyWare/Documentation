@@ -1,0 +1,38 @@
+.flex {
+    flex-grow: 1;
+}
+
+.page {
+    display: flex;
+    border-radius: 6px;
+    border: 1px solid var(--ifm-color-emphasis-300);
+    padding: var(--ifm-global-spacing);
+    margin: 24px 0;
+    align-items: center;
+}
+
+.page p {
+    padding-right: 0.8em;
+    color: var(--ifm-color-emphasis-800);
+    margin: 0;
+}
+
+.pageTitleFormat {
+    color: var(--ifm-toc-link-color);
+    font-size: 1.25rem;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+}
+
+.pages {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.pagesContainer {
+    width: 85%;
+    max-width: 650px;
+    padding-bottom: 8em;
+    padding-top: 0;
+}

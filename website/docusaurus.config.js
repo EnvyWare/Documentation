@@ -8,8 +8,8 @@ import {oneDark, themes as prismThemes} from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'EnvyWare Ltd Documentation',
-  tagline: 'EnvyWare Ltd',
+  title: 'EnvyWare Documentation',
+  tagline: 'This site contains documentation for all EnvyWare Ltd projects and products.',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
