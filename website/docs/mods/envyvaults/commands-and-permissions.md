@@ -1,0 +1,5 @@
+# Commands & Permissions
+
+## Commands
+
+<table><thead><tr><th width="216">Command</th><th>Description</th><th width="182">Permission</th><th>Aliases</th></tr></thead><tbody><tr><td><code>/vaults</code></td><td>Opens the Vaults GUI</td><td><code>envy.vaults.command.vaults</code></td><td><code>/envyvaults</code></td></tr><tr><td><code>/vaults admin &#x3C;player> &#x3C;#></code></td><td>Allows players with the permission to open any players vault</td><td><code>envy.vaults.command.admin</code></td><td><code>/vaults a</code></td></tr><tr><td><code>/vaults refresh &#x3C;player></code></td><td>Refreshes and checks a players vault limit</td><td><code>envy.vaults.command.refresh</code></td><td></td></tr><tr><td><code>/vaults open &#x3C;#></code></td><td>Opens a specified vault</td><td><code>envy.vaults.command.open</code></td><td><code>/vaults o</code></td></tr><tr><td><code>/vaults rename &#x3C;#> &#x3C;name></code></td><td>Allows you to rename specified vaults</td><td><code>envy.vaults.command.rename</code></td><td></td></tr><tr><td><code>/vaults reload</code></td><td>Reload the mod</td><td><code>envy.vaults.command.reload</code></td><td></td></tr></tbody></table>

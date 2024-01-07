@@ -1,0 +1,8 @@
+# Commands & Permissions
+
+| Commands                                                                                                                                                                                                      | Description                         | Permission                          |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------- | ----------------------------------- |
+| <p><code>/envycrates</code><br><code>/crates</code></p>                                                                                                                                                       | Main command                        | `com.envyful.crates.command`        |
+| `/envycrates reload`                                                                                                                                                                                          | Reloads the config                  | `com.envyful.crates.command.reload` |
+| <p><code>/envycrates givekey &#x3C;name> &#x3C;crate> [amount]</code><br><code>/envycrates give &#x3C;name> &#x3C;crate> [amount]</code><br><code>/envycrates gk &#x3C;name> &#x3C;crate> [amount]</code></p> | Gives the player the key            | `com.envyful.crates.command.give`   |
+| <p><code>/envycrates setcrate &#x3C;crate></code><br><code>/envycrates sc &#x3C;crate></code><br><code>/envycrates set &#x3C;crate></code></p>                                                                | Sets a crate at the given position  | `com.envyful.crates.command.set`    |
