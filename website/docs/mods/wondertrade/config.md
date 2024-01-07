@@ -6,8 +6,8 @@
 
 <summary>Default Config with Explanatory Comments</summary>
 
-<pre><code><strong># © EnvyWare Ltd Software 2022
-</strong>
+```yaml
+# © EnvyWare Ltd Software 2022
 # For assistance visit https://discord.envyware.co.uk
 
 save-mode: JSON
@@ -40,6 +40,6 @@ min-required-level: 30
 number-in-pool: 30
 persistent-pool: true
 disable-u-i: false
-</code></pre>
+```
 
 </details>

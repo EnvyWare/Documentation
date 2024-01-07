@@ -6,7 +6,13 @@ description: You can use multiple specs in one broadcast
 
 <table>
 <thead>
-<tr><th width="129">Type</th><th width="219">Description</th><th width="435">Example</th></tr></thead>
+<tr>
+<th width="129">Type</th>
+<th width="219">Description</th>
+<th width="435">Example</th>
+</tr>
+</thead>
+
 <tbody><tr>
 <td>Capture</td>
 <td>Initiates a broadcast when a specified Spec if captured.</td>
