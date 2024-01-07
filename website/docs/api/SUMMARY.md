@@ -6,6 +6,6 @@
 
 ## Commands
 
-* [Getting Started](commands/getting-started.md)
-* [Annotation Based Commands](commands/annotation-based-commands.md)
-* [Builder Commands](commands/builder-commands.md)
+* [Getting Started](Commands/getting-started.md)
+* [Annotation Based Commands](Commands/annotation-based-commands.md)
+* [Builder Commands](Commands/builder-commands.md)
