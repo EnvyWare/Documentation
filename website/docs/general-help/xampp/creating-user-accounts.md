@@ -4,9 +4,9 @@ Now to add new users, you will need to go to the User Accounts tab at the top of
 
 <br>
 
-<img src="../.gitbook/assets/Screenshot 2023-01-15 211151.png" alt="">
+<img src="../.gitbook/assets/Screenshot 2023-01-15 211151.png" alt=""></img>
 
-<img src="../.gitbook/assets/main user accouint creation page.png" alt="">
+<img src="../.gitbook/assets/main user accouint creation page.png" alt=""></img>
 
 These items listed below should be the only things you need to change\
 `User name:`  This is the name of the user\
@@ -19,6 +19,6 @@ The difference between global and database privileges is that when setting a glo
 <br>
 While setting database privileges, you set privileges within a specified Database itself, meaning you only give it the permissions for that specific database.
 
-<img src="../.gitbook/assets/global database.png" alt="">
+<img src="../.gitbook/assets/global database.png" alt=""></img>
 
 You can set Global/Database privileges by clicking on your user and clicking one of the tabs that are shown above.

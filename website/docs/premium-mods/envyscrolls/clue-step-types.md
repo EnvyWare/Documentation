@@ -25,9 +25,9 @@ clue-step-type:
 
 This is for giving the user a clue step that requires them to defeat any, or a specific, trainer a random number of times between the min and max value.
 
-{% hint style="info" %}
-If you leave the UUID section blank it will accept any trainer
-{% endhint %}
+
+> **INFO** \
+> If you leave the UUID section blank it will accept any trainer
 
 <details>
 
@@ -143,9 +143,8 @@ clue-step-type:
 
 This is for giving the user a clue step that requires them to lose to a specific, or any, trainer a random number of times (that will generate between the min and max value).
 
-{% hint style="info" %}
-Leaving the UUID section blank will allow them to lose to any NPC
-{% endhint %}
+> **INFO** \
+> Leaving the UUID section blank will allow them to lose to any NPC
 
 <details>
 

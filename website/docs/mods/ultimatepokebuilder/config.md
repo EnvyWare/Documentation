@@ -1,8 +1,6 @@
 # Config
 
-{% hint style="warning" %}
-**NOTE:** This mod can use MySQL, if you wish to use that, change the save-mode to MYSQL. If you do not know how to make a database refer to [this](https://app.gitbook.com/o/VBNbt9QKM9Bl2VRr86F1/s/AMLZiQkdzA1GB4HSIevs/).
-{% endhint %}
+> **NOTE:** This mod can use MySQL, if you wish to use that, change the save-mode to MYSQL. If you do not know how to make a database refer to [this](https://app.gitbook.com/o/VBNbt9QKM9Bl2VRr86F1/s/AMLZiQkdzA1GB4HSIevs/).
 
 <details>
 

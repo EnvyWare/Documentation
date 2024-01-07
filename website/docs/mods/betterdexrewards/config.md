@@ -4,7 +4,8 @@
 
 <summary>config.yml with explanatory comments</summary>
 
-<pre class="language-yaml"><code class="lang-yaml"># © EnvyWare Ltd Software 2022
+```yaml
+# © EnvyWare Ltd Software 2022
 # For assistance visit https://discord.envyware.co.uk
 
 database: # sql database details
@@ -78,7 +79,7 @@ claim-reminder-message: # Message sent to remain the player they've not claimed 
 - '&#x26;e&#x26;l(!) &#x26;eYou have a PokeDex reward level you can claim!'
 claim-update-message: # Message sent upon a new level being able to be claimed
 - '&#x26;e&#x26;l(!) &#x26;eYou have a new PokeDex reward level you can claim!'
-</code></pre>
+```
 
 </details>
 
@@ -367,10 +368,11 @@ Configuring rewards uses the generic [EnvyWare API Rewards format](https://githu
 
 <summary>If the Missing Pokemon screen shows the Pokemon silhouettes scaled incorrectly, edit the <code>nbt</code> section of <code>missing-pokemon-item</code> in your <code>guis.yml</code> to this to resolve it</summary>
 
-<pre class="language-yaml"><code class="lang-yaml">        nbt:
+```yaml
+nbt:
             UIImage:
-<strong>                type: string
-</strong>                data: '%sprite%'
+                type: string
+                data: '%sprite%'
                 sub-data: {}
             UIImageHeight:
                 type: short
@@ -412,7 +414,7 @@ Configuring rewards uses the generic [EnvyWare API Rewards format](https://githu
                 type: float
                 data: '1'
                 sub-data: {}
-</code></pre>
+```
 
 
 

@@ -1,8 +1,7 @@
 # GUI
 
-{% hint style="info" %}
-Refer to [this page](https://wiki.envyware.co.uk/general-help/general-config/config-interfaces) for help on filler type and filler items.
-{% endhint %}
+> **INFO** \
+> Refer to [this page](https://wiki.envyware.co.uk/general-help/general-config/config-interfaces) for help on filler type and filler items.
 
 <details>
 

@@ -176,8 +176,6 @@ battle-rules: # The rules to apply to all the battles
 
 </details>
 
-{% hint style="info" %}
 If you don't understand some of the patterns found in the config above you should read through the sections [here](https://wiki.envyware.co.uk/general-help/general-config)
 
 More specifically the location information can be found [here](https://wiki.envyware.co.uk/general-help/general-config/config-locations)
-{% endhint %}

@@ -14,9 +14,7 @@ Once you've setup your gradle project you'll need to add the EnvyWare maven repo
   }
 ```
 
-{% hint style="info" %}
 **You can find other examples of how to setup the EnvyWare maven repository on the online web view (**[**here**](http://maven.envyware.co.uk/)**).**
-{% endhint %}
 
 ## Add the module dependencies
 

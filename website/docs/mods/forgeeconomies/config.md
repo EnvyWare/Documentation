@@ -1,8 +1,7 @@
 # Config
 
-{% hint style="warning" %}
-If you do not have a database nor know how to set one up please refer to [this](https://app.gitbook.com/s/AMLZiQkdzA1GB4HSIevs/xampp) if you are on a local system or we have a small list of paid server host FAQ's [here](https://app.gitbook.com/s/AMLZiQkdzA1GB4HSIevs/paid-server-hosting-databases).
-{% endhint %}
+> **WARNING** \
+> If you do not have a database nor know how to set one up please refer to [this](https://app.gitbook.com/s/AMLZiQkdzA1GB4HSIevs/xampp) if you are on a local system or we have a small list of paid server host FAQ's [here](https://app.gitbook.com/s/AMLZiQkdzA1GB4HSIevs/paid-server-hosting-databases).
 
 <details>
 
