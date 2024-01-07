@@ -56,9 +56,7 @@ This will all look something like this (taken from EnvyCrates)
 
 The `PermissionHandler` annotation is for those that want to include some more detailed logic in their permission handling.&#x20;
 
-{% hint style="info" %}
 If you're using a modern Forge version don't forget to register your permissions!
-{% endhint %}
 
 Using the permission handler annotation would look something like so:
 

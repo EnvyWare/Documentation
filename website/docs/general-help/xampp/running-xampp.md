@@ -2,7 +2,7 @@
 
 When Running XAMPP, you will be greeted with this UI
 
-<figure><img src="../.gitbook/assets/Screenshot 2023-01-15 195356 (1).png" alt=""><figcaption></figcaption></figure>
+<img src="../.gitbook/assets/Screenshot 2023-01-15 195356 (1).png" alt="">
 
 You will then want to start MySQL and Apache (You can start FileZilla too if that's something you want although we will not cover that setup here).\
 \

@@ -10,11 +10,11 @@ You can usually find all GUI related settings in the guis.yml of the mods. Howev
 
 <summary>General Settings</summary>
 
-Every GUI comes with the same general settings.&#x20;
+Every GUI comes with the same general settings.
 
-<pre class="language-yaml"><code class="lang-yaml">gui-settings:
-<strong>  title: 'EnvyBattleTower'
-</strong>  height: 3
+```yaml
+  title: 'EnvyBattleTower'
+  height: 3
   fill-type: 'BLOCK'
   filler-items:
     one:
@@ -26,7 +26,7 @@ Every GUI comes with the same general settings.&#x20;
       lore: []
       enchants: {}
       nbt: {}
-</code></pre>
+```
 
 The title section of the GUI settings is what defines the text at the top of the inventory.
 

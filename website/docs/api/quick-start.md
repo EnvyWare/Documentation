@@ -8,15 +8,11 @@ Firstly you need to begin by creating a Gradle project. You can find examples of
 
 Once you've setup your gradle project you'll need to add the EnvyWare maven repository so that gradle knows where to download the dependency from. This can be done like so:
 
-{% tabs %}
-{% tab title="Groovy" %}
 ```groovy
   maven {
        url "https://maven.envyware.co.uk/releases"
   }
 ```
-{% endtab %}
-{% endtabs %}
 
 {% hint style="info" %}
 **You can find other examples of how to setup the EnvyWare maven repository on the online web view (**[**here**](http://maven.envyware.co.uk/)**).**
@@ -31,27 +27,20 @@ You will need to learn how to shadow the dependencies into the JAR file. This is
 
 You can find how to use (and setup) shadow [here](https://imperceptiblethoughts.com/shadow/getting-started/).&#x20;
 
-{% hint style="info" %}
 **There are multiple different modules for the EnvyWare API which include:**
-
 * commons
 * discord
 * forge
 * forge16
 * forge19
+* forge20
 * spigot
 * reforged
 * reforged16
-{% endhint %}
 
 
-
-{% tabs %}
-{% tab title="Groovy" %}
 ```groovy
 dependencies {
   shadow "com.envyful.api:commons:5.0.1"
 }
 ```
-{% endtab %}
-{% endtabs %}

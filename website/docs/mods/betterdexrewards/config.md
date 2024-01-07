@@ -4,8 +4,8 @@
 
 <summary>config.yml with explanatory comments</summary>
 
-<pre class="language-yaml"><code class="lang-yaml"><strong># © EnvyWare Ltd Software 2022
-</strong># For assistance visit https://discord.envyware.co.uk
+<pre class="language-yaml"><code class="lang-yaml"># © EnvyWare Ltd Software 2022
+# For assistance visit https://discord.envyware.co.uk
 
 database: # sql database details
     pool-name: BetterDexRewards

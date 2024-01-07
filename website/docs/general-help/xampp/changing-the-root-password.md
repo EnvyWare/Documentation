@@ -10,13 +10,13 @@ This account is your most important account so you will want to change the passw
 You will now want to click on `User Accounts` on the homepage of your PHPmyadmin\
 
 
-<figure><img src="../.gitbook/assets/user accounts.png" alt=""><figcaption></figcaption></figure>
+<img src="../.gitbook/assets/user accounts.png" alt="">
 
 After that, you will want to click on all of your root accounts and change the passwords to what ever you want them to be.
 
-<figure><img src="../.gitbook/assets/root.png" alt=""><figcaption></figcaption></figure>
+<img src="../.gitbook/assets/root.png" alt="">
 
-<figure><img src="../.gitbook/assets/password.png" alt=""><figcaption></figcaption></figure>
+<img src="../.gitbook/assets/password.png" alt="">
 
 Once you change these, you will not be able to log back into your PHPmyadmin until you change the credentials inside of XAMPP. \
 To do this, you will need to reopen your XAMPP interface and go to the following.\

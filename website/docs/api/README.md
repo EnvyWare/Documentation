@@ -14,6 +14,4 @@ Here you can find documentation on some of the resources found in the EnvyWare A
 
 Here you can find a guide for how to get started with the API
 
-{% content-ref url="quick-start.md" %}
 [quick-start.md](quick-start.md)
-{% endcontent-ref %}

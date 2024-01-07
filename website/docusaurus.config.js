@@ -133,11 +133,7 @@ const config = {
       },
       prism: {
         theme: prismThemes.github,
-        darkTheme: prismThemes.dracula,
-        darkThemeTwo: prismThemes.oneDark,
-        darkThemeThree: prismThemes.vsDark,
-        darkThemeFour: prismThemes.duotoneDark,
-        darkThemeFive: prismThemes.jettwaveDark
+        darkTheme: prismThemes.dracula
       },
     }),
 };

@@ -11,7 +11,7 @@ There is a really nice software called HeidiSQL that allows you to conntect exte
 
 If you already have configured accounts/databases you can login using your user accounts credentials
 
-<figure><img src=".gitbook/assets/heidi.png" alt=""><figcaption></figcaption></figure>
+<img src=".gitbook/assets/heidi.png" alt="">
 
 The `Hostname/IP:` is your public IPv4 Address of the machine where the database is hosted.\
 You can find this IP Via command prompt and run the command `ipconfig`.\
