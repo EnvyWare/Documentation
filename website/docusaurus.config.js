@@ -124,7 +124,7 @@ const config = {
               },
               {
                 label: "EnvyBattleTower",
-                to: "docs/mods/envy-battle-tower/"
+                to: "docs/mods/envybattletower/"
               },
               {
                 label: "EnvyCrates",
