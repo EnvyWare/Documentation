@@ -1,7 +1,5 @@
 ---
-description: >-
-  A section describing some of the patterns you may find in all the configs
-  across the EnvyWare Ltd mods
+sidebar_position: 2
 ---
 
 # General Config

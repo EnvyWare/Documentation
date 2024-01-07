@@ -1,3 +1,9 @@
+---
+sidebar_position: 1
+sidebar_label: Getting Started
+---
+
+
 # Getting Started
 
 There is currently two ways of registering commands with the EnvyWare command API. But before we can register any commands you will need an instance of the CommandFactory interface.

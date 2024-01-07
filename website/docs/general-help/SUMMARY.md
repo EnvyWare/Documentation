@@ -1,3 +1,7 @@
+---
+sidebar_position: 1
+---
+
 # Table of contents
 
 * [Home](https://app.gitbook.com/o/VBNbt9QKM9Bl2VRr86F1/s/y9PJxPPXscaXBT8YDkH8/)

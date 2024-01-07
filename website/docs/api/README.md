@@ -2,6 +2,8 @@
 description: >-
   Here you can find documentation on some of the resources found in the EnvyWare
   API
+sidebar_position: 1
+sidebar_label: Welcome
 ---
 
 # Welcome!

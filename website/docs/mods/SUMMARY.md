@@ -1,7 +1,11 @@
+---
+sidebar_position: 1
+---
+
 # Table of contents
 
 * [Home](https://app.gitbook.com/o/VBNbt9QKM9Bl2VRr86F1/s/y9PJxPPXscaXBT8YDkH8/)
-* [Advanced Holograms](README.md)
+* [Advanced Holograms](advanced-holograms/README.md)
   * [Download](https://github.com/EnvyWare/AdvancedHolograms/releases)
   * [Config](advanced-holograms/config.md)
   * [Placeholders](advanced-holograms/placeholders.md)

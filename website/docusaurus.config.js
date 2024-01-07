@@ -34,6 +34,17 @@ const config = {
     locales: ['en'],
   },
 
+  themes: [
+    [
+      require.resolve('@easyops-cn/docusaurus-search-local'),
+      {
+        // ... your options
+        hashed: true, // recommended for long-term caching
+        language: ['en', 'zh'], // for sites using Chinese
+        // ... other available options
+      },
+    ]
+  ],
   presets: [
     [
       'classic',
@@ -62,28 +73,164 @@ const config = {
         },
         items: [
           {
-            type: 'docSidebar',
-            sidebarId: 'generalHelpSidebar',
+            type: 'dropdown',
             position: 'left',
             label: 'General Help',
+            to: "docs/general-help/SUMMARY/",
+            items: [
+              {
+                label: "Summary",
+                to: "docs/general-help/SUMMARY/"
+              },
+              {
+                label: "General Config",
+                to: "docs/general-help/general-config/"
+              },
+              {
+                label: "MySQL",
+                to: "docs/general-help/"
+              }
+            ]
           },
           {
-            type: 'docSidebar',
-            sidebarId: 'modsSidebar',
+            type: 'dropdown',
             position: 'left',
             label: 'Mods',
+            to: "docs/mods/SUMMARY/",
+            items: [
+              {
+                label: "Summary",
+                to: "docs/mods/SUMMARY/"
+              },
+              {
+                label: "Advanced Holograms",
+                to: "docs/mods/advanced-holograms/"
+              },
+              {
+                label: "BetterDexRewards",
+                to: "docs/mods/betterdexrewards/"
+              },
+              {
+                label: "BetterPokeBroadcaster",
+                to: "docs/mods/betterpokebroadcaster/"
+              },
+              {
+                label: "Envy AntiLag",
+                to: "docs/mods/envy-antilag/"
+              },
+              {
+                label: "Envy Specs",
+                to: "docs/mods/envy-specs/"
+              },
+              {
+                label: "EnvyBattleTower",
+                to: "docs/mods/envy-battle-tower/"
+              },
+              {
+                label: "EnvyCrates",
+                to: "docs/mods/envycrates/"
+              },
+              {
+                label: "EnvyDayCare",
+                to: "docs/mods/envydaycare/"
+              },
+              {
+                label: "EnvyGTS",
+                to: "docs/mods/envygts/"
+              },
+              {
+                label: "EnvyHunt",
+                to: "docs/mods/envyhunt/"
+              },
+              {
+                label: "EnvySafari",
+                to: "docs/mods/envysafari/"
+              },
+              {
+                label: "EnvySpecs",
+                to: "docs/mods/envyspecs/"
+              },
+              {
+                label: "EnvySTS",
+                to: "docs/mods/envysts/"
+              },
+              {
+                label: "EnvyVaults",
+                to: "docs/mods/envyvaults/"
+              },
+              {
+                label: "Forge TAB",
+                to: "docs/mods/forge-tab/"
+              },
+              {
+                label: "Forge Placeholder API",
+                to: "docs/mods/forgeplaceholderapi-fpapi/"
+              },
+              {
+                label: "PokeRemoval",
+                to: "docs/mods/pokeremoval/"
+              },
+              {
+                label: "PokeTracker",
+                to: "docs/mods/poketracker/"
+              },
+              {
+                label: "ReforgedBingo",
+                to: "docs/mods/reforgedbingo/"
+              },
+              {
+                label: "UltimatePokeBuilder",
+                to: "docs/mods/ultimatepokebuilder/"
+              },
+              {
+                label: "WonderTrade",
+                to: "docs/mods/wondertrade/"
+              }
+            ]
           },
           {
-            type: 'docSidebar',
-            sidebarId: 'premiumModsSidebar',
+            type: 'dropdown',
             position: 'left',
             label: 'Premium Mods',
+            to: "docs/premium-mods/SUMMARY/",
+            items: [
+              {
+                label: "Summary",
+                to: "docs/premium-mods/SUMMARY/"
+              },
+              {
+                label: "TOS",
+                to: "docs/premium-mods/"
+              },
+              {
+                label: "EnvyGyms",
+                to: "docs/premium-mods/envygyms/"
+              },
+              {
+                label: "EnvyScrolls",
+                to: "docs/premium-mods/envyscrolls/"
+              }
+            ]
           },
           {
-            type: 'docSidebar',
-            sidebarId: 'apiSidebar',
+            type: 'dropdown',
             position: 'left',
             label: 'API',
+            to: "docs/api/",
+            items: [
+              {
+                label: "Summary",
+                to: "docs/api/"
+              },
+              {
+                label: "Quick Start",
+                to: "docs/api/quick-start/"
+              },
+              {
+                label: "Commands",
+                to: "docs/api/Commands/annotation-based-commands"
+              }
+            ]
           },
           {
             href: 'https://github.com/EnvyWare/Documentation',

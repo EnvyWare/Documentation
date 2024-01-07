@@ -1,2 +1,0 @@
-# EnvyClans (WIP)
-
