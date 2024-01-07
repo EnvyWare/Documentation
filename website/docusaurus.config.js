@@ -42,9 +42,6 @@ const config = {
         docs: {
           sidebarPath: './sidebars.js',
         },
-        blog: {
-          showReadingTime: true,
-        },
         theme: {
           customCss: './src/css/custom.css',
         },
@@ -88,7 +85,6 @@ const config = {
             position: 'left',
             label: 'API',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
           {
             href: 'https://github.com/EnvyWare/Documentation',
             label: 'GitHub',
