@@ -27,14 +27,15 @@ Therefore, if you want to use a previously undefined event for a clue step you n
 
 <summary>Registering Event Converters</summary>
 
-<pre class="language-java"><code class="lang-java">public static void onStart() {
+```java
+public static void onStart() {
    // Events with only one player involved
    ClueStepTypeRegistry.registerEventConverter(CaptureEvent.SuccessfulCapture.class, EventConverter.single(CaptureEvent.SuccessfulCapture::getPlayer));
    
    // Events with multiple players involved
    ClueStepTypeRegistry.registerEventConverter(PixelmonTradeEvent.Post.class, event -> Lists.newArrayList(event.getPlayer1(), event.getPlayer2()));
-<strong>}
-</strong></code></pre>
+}
+```
 
 </details>
 

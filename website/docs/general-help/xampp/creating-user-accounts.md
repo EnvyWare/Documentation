@@ -2,7 +2,7 @@
 
 Now to add new users, you will need to go to the User Accounts tab at the top of your PhpMyAdmin Homepage. (You can get there by clicking the house icon at the top left of your page)
 
-<br>
+<br/>
 
 <img src="../.gitbook/assets/Screenshot 2023-01-15 211151.png" alt=""></img>
 
@@ -16,7 +16,7 @@ These items listed below should be the only things you need to change\
 ## Global vs Database Privileges
 
 The difference between global and database privileges is that when setting a global privilege, the user will be able to use that check marked privilege on **ANY** database that is within your network.\
-<br>
+<br/>
 While setting database privileges, you set privileges within a specified Database itself, meaning you only give it the permissions for that specific database.
 
 <img src="../.gitbook/assets/global database.png" alt=""></img>

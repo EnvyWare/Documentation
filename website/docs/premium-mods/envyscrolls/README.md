@@ -4,7 +4,8 @@ EnvyScrolls is a premium clue scrolls Forge mod that allows you to create your o
 
 It is currently on sale in the EnvyWare Ltd Discord server for £75 per server. To purchase it you must join the Discord and follow the instructions from the Discord bot.
 
-{% embed url="https://i.gyazo.com/4b14ee9af65030ae9c9aa57e273d65f3.mp4" %}
+<video src="https://i.gyazo.com/4b14ee9af65030ae9c9aa57e273d65f3.mp4" controls="controls">
+</video>
 
 ## Description
 

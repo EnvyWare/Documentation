@@ -61,4 +61,4 @@ Inside of the `broadcast.json`, paste this and then insert your discord webhook 
 }
 ```
 
-<figure><img src="../.gitbook/assets/Screenshot 2023-04-19 125938.png" alt=""><figcaption><p>The Completed Webhook will appear as so.</p></figcaption></figure>
+<img src="../.gitbook/assets/Screenshot 2023-04-19 125938.png" alt=""></img>
