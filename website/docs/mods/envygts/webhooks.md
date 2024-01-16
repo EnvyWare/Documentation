@@ -1,8 +1,9 @@
 # Webhooks
 
-First you must ensure that the `enable-web-hooks` setting in `config.yml` is set to `true`.
+> **Important** \
+> Make sure `enable-web-hooks` is set to true in the `config.yml` otherwise all the following will not work!
 
-Then you need to create a `webhooks` directory in the same folder as the config (i.e. `config/ReforgedGTS/webhooks/`)
+Then you need to create a `webhooks` directory in the same folder as the config (i.e. `config/EnvyGTS/webhooks/`)
 
 In this directory you will add the JSON files for each different type of WebHook.
 
@@ -18,7 +19,7 @@ Which means if you had all enabled your file system would look like this:
 
 ```
 config/
-   ReforgedGTS/
+   EnvyGTS/
        webhooks/
            publisher-pokemon.json
            publisher-item.json
@@ -38,7 +39,7 @@ Here is an example for the publisher-pokemon.json file:
 ```
 {
    "url": "WEBHOOK-URL-HERE",
-   "username":"Reforged GTS",
+   "username":"EnvyGTS",
    "avatar_url": "https://play.pokemonshowdown.com/sprites/ani/%species_lower%.gif",
    "tts": false,
    "icon_url":"https://play.pokemonshowdown.com/sprites/ani/%species_lower%.gif",
