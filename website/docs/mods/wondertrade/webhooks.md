@@ -2,9 +2,12 @@
 description: Here is an example webhook you can use for discord integrations.
 ---
 
+> **Important** \
+> This feature requires knowledge of Discord Webhooks to use. If you don't know what those are, start here: https://support.discord.com/hc/en-us/articles/228383668-Intro-to-Webhooks
+
 # Webhooks
 
-Here is what you will change inside of the WonderTrade Config.\
+Here is what you will change inside of the WonderTrade Config.
 
 
 ```yaml

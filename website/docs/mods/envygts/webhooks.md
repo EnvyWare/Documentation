@@ -3,6 +3,9 @@
 > **Important** \
 > Make sure `enable-web-hooks` is set to true in the `config.yml` otherwise all the following will not work!
 
+> **Important** \
+> This feature requires knowledge of Discord Webhooks to use. If you don't know what those are, start here: https://support.discord.com/hc/en-us/articles/228383668-Intro-to-Webhooks
+
 Then you need to create a `webhooks` directory in the same folder as the config (i.e. `config/EnvyGTS/webhooks/`)
 
 In this directory you will add the JSON files for each different type of WebHook.
