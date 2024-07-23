@@ -120,7 +120,7 @@ const config = {
               },
               {
                 label: "Envy Specs",
-                to: "docs/mods/envy-specs/"
+                to: "docs/mods/envyspecs/"
               },
               {
                 label: "EnvyBattleTower",
