@@ -279,8 +279,8 @@ Example: `10` \
 Default: `None` \
 Range: [0, Infinity]
 
-#### ZLevel
-Key: `ZLevel` \
+#### UIZLevel
+Key: `UIZLevel` \
 Type: `Int` \
 Description: \
 The Z level of the sprite on the UI. The higher the number the more it will render on top of other sprites. \
