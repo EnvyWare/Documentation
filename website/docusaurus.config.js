@@ -34,11 +34,8 @@ const config = {
     locales: ['en'],
   },
 
-  themes: [
-    [
-      require.resolve("@cmfcmf/docusaurus-search-local")
-    ]
-  ],
+  themes: [],
+  plugins: ["@orama/plugin-docusaurus-v3"],
   presets: [
     [
       'classic',
