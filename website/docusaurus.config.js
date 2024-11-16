@@ -36,13 +36,7 @@ const config = {
 
   themes: [
     [
-      require.resolve('@cmfcmf/docusaurus-search-local'),
-      {
-        // ... your options
-        hashed: true, // recommended for long-term caching
-        language: ['en', 'zh'], // for sites using Chinese
-        // ... other available options
-      },
+      require.resolve("@cmfcmf/docusaurus-search-local")
     ]
   ],
   presets: [
