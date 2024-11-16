@@ -6,7 +6,7 @@ description: Database settings in the configs
 In any mod that stores data you will find a section of the config that refers to a database. 
 This is where you can decide how you want your data to be stored and accessed.
 
-There are two options for the database type: `SQLITE` and `MYSQL`.
+There are two options for the database type: `SQLITE` and `SQL`.
 
 ### SQLite
 This is the default setting in all of the mods. This is because it uses a file to store the data and so
