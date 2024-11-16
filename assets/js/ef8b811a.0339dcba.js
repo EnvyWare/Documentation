@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmy_website=self.webpackChunkmy_website||[]).push([[8947],{6600:e=>{e.exports=JSON.parse('{"authors":[{"name":"Daniel Norris","title":"Director of EnvyWare Ltd","url":"https://github.com/danorris709","imageURL":"https://github.com/danorris709.png","key":"daniel","page":null,"count":0}]}')}}]);
