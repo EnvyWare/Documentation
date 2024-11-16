@@ -36,7 +36,7 @@ const config = {
 
   themes: [
     [
-      require.resolve('@easyops-cn/docusaurus-search-local'),
+      require.resolve('@cmfcmf/docusaurus-search-local'),
       {
         // ... your options
         hashed: true, // recommended for long-term caching
