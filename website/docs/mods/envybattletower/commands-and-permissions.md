@@ -1,6 +1,8 @@
 # Commands & Permissions
 
-| Command                                                                                                                  | Description                                  | Permission                               |
-|--------------------------------------------------------------------------------------------------------------------------| -------------------------------------------- | ---------------------------------------- |
-| <p><code>/envybattletower</code><br/><code>/battletower</code><br/><code>/ebattletower</code><br/><code>/bt</code></p> | This command will open the battle tower GUI. | `com.envyful.battletower.command`        |
-| `/bt reload`                                                                                                             | This command will reload the config          | `com.envyful.battletower.command.reload` |
+| Command                                                                                                                | Description                                                                                              | Permission                               |
+|------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------| ---------------------------------------- |
+| <p><code>/envybattletower</code><br/><code>/battletower</code><br/><code>/ebattletower</code><br/><code>/bt</code></p> | This command will open the battle tower GUI.                                                             | `com.envyful.battletower.command`        |
+| `/bt reload`                                                                                                           | This command will reload the config                                                                      | `com.envyful.battletower.command.reload` |
+| `/bt validate`                                                                                                         | This goes through all the battle towers and checks the pokepastes are valid for all the teams.           | `com.envyful.battle.tower.command.validate`  |
+| `/bt resetcooldown <player> <tower>`                                                                                    | This resets the player's cooldown for the given battle tower, allowing them to re-challenge immediately. | `com.envyful.battle.tower.command.resetcooldown`  |
